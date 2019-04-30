@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Elements</title>
+        <script>
+        function addItem() {
+            var newItem = document.createElement("div");
+            newItem.innerHTML = "New Item";
+            document.getElementById("List").appendChild(newItem);
+        }
+        </script>
+</head>
+    <body>
+        <div id = "List" onclick = "addItem();">Click here to add item</div>
+    </body>
+    </html>
